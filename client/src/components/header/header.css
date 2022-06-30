@@ -1,0 +1,163 @@
+.header {
+  margin-top: 60px;
+}
+
+.headerTitles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Lora", serif;
+  color: #444;
+}
+
+.headerTitleSm {
+  position: absolute;
+  top: 18%;
+  font-size: 20px;
+}
+
+.headerTitleLg {
+  position: absolute;
+  top: 20%;
+  font-size: 100px;
+}
+
+.headerImg{
+    width: 100%;
+    height: 450px;
+    margin-top: 80px;
+    object-fit: cover;
+}
+
+
+
+
+@media (min-width: 992px) {
+  #tm-main-nav .nav-item { margin: 20px 40px; }
+  .navbar-expand-lg .navbar-nav .nav-link { padding: 8px 0px; }
+  .navbar-expand-lg .navbar-collapse { justify-content: flex-end; }
+}
+
+
+
+@media (max-width: 991px) {
+  .navbar {
+      max-width: 220px;
+      position: absolute;
+      top: 0;
+      right: 0;
+      padding: 0;
+  }
+  
+  .navbar-collapse {
+      background-color: rgba(0,0,0,0.5);
+      border-radius: 5px;
+      border-top-right-radius: 0;
+      padding: 10px 15px;
+  }
+
+  .nav-item { margin-bottom: 10px; }
+
+  .navbar-toggler {
+      border-bottom-left-radius: 0;
+      border-bottom-right-radius: 0;
+      width: 52px;
+      height: 40px;
+  }
+
+  .navbar-toggler.collapsed {
+      border-bottom-left-radius: .25rem;
+      border-bottom-right-radius: .25rem;   
+  }
+
+  .navbar-toggler i.tm-menu-opened-icon { display: block; }
+  .navbar-toggler i.tm-menu-closed-icon { display: none; }
+  .navbar-toggler.collapsed i.tm-menu-opened-icon { display: none; }
+  .navbar-toggler.collapsed i.tm-menu-closed-icon { display: block; }
+  .tm-welcome-container-inner { margin-top: 150px; }
+  .tm-welcome-text { font-size: 1.4rem; }
+
+}
+
+
+@media (max-width: 879px) {
+  .tm-categories-container {
+      flex-direction: column;
+      align-items: flex-start;
+  }
+}
+
+
+
+
+
+
+/* ==========================================================================
+3. Hero Area
+========================================================================== */
+.hero-area-bg {
+  background: url(../../img/book1.jpeg) no-repeat;
+  background-size: cover;
+}
+
+#hero-area {
+  color: #fff;
+  overflow: hidden;
+  position: relative;
+}
+
+#hero-area .overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  background: #0c0808;
+  opacity: 0.6;
+}
+
+#hero-area .contents {
+  padding: 175px 0px 120px;
+}
+
+#hero-area .contents h5 {
+  font-size: 50px;
+}
+
+#hero-area .contents .head-title {
+  color: #FFF;
+  font-size: 80px;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+#hero-area .contents p {
+  font-size: 30px;
+  color: #fff;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 25px;
+}
+
+#hero-area .contents .btn {
+  margin: 25px 0px;
+  text-transform: uppercase;
+}
+
+#hero-area .banner_bottom_btn {
+  margin-top: 40px;
+}
+
+#hero-area .banner_bottom_btn i {
+  color: #fff;
+  font-size: 48px;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+#hero-area .banner_bottom_btn i:hover {
+  color: #ddd;
+}

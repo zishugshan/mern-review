@@ -1,0 +1,3 @@
+POST localhost:5000/api/posts/
+POST localhost:5000/api/auth/login 
+POST localhost:5000/api/auth/register
